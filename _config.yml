@@ -1,5 +1,9 @@
-theme: jekyll-theme-dinky
+remote_theme: "mmistakes/minimal-mistakes"
 
 title: Lingyun Wu
 
 description: Welcome to my homepage!
+
+plugins:
+  - jekyll-remote-theme
+
