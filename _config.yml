@@ -1,9 +1,21 @@
 remote_theme: "mmistakes/minimal-mistakes"
 
-title: Lingyun Wu
+minimal_mistakes_skin: "air"
 
-description: Welcome to my homepage!
+
+title: "Lingyun Wu"
+name: "Lingyun Wu"
+description: "Welcome to my homepage!"
+
+
+author:
+  name   : "Lingyun Wu"
+  avatar : "/assets/images/patrick.png"
+  email  : "wulingyun16@gmail.com"
+
 
 plugins:
   - jekyll-remote-theme
 
+
+search: true
