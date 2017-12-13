@@ -3,17 +3,12 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
 
 
-title: "Lingyun Wu"
-name: "Lingyun Wu"
-description: "Welcome to my homepage!"
-
-
 # Site Author
 author:
-  name   : "Lingyun Wu"
-  avatar : "/assets/images/patrick.png"
-  email  : "wulingyun16@gmail.com"
-  bio              : "Welcome to my homepgae"
+  name             : "Lingyun Wu"
+  avatar           : "/assets/images/patrick.png"
+  email            : "wulingyun16@gmail.com"
+  bio              : "Welcome to my homepage!"
   location         : "Athens, GA"
   uri              :
   bitbucket        :
@@ -52,7 +47,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: "single"
       author_profile: true
       read_time: true
       comments: # true
@@ -65,14 +60,14 @@ defaults:
 
 # Site Settings
 locale                   : "en"
-title                    : "Lingyun Wu"
+title                    : "PORTFOLIO OF LINGYUN WU"
 title_separator          : "-"
 name                     : "Lingyun Wu"
-description              : "An amazing website."
+description              : "Welcome to my homepage!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "lingyun-wu/lingyun-wu.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/image-9.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -107,7 +102,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
+search                   : # true, false (default)
 
 # SEO Related
 google_site_verification :
